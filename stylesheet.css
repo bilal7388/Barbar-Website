@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image/istockphoto-1253944178-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-family: bold;
+    list-style: none;
+}
+/* HEADER */
+header{
+    height: 120px;  
+}
+.headerBox{
+    text-align: center; 
+}
+.logoBox{
+    float: left;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 20cap;
+    float: left ;
+    margin: 5px 0px 0px 20px;
+}
+.Titleheading{
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 10px;
+    font-family: bold;
+}
+.SubTitleheading{
+    color: rgba(255, 255, 255, 0.747);
+    margin: 40px 0px 0px -110px;
+    float: left;
+    font-size: 0.9em;
+    font-style: italic;
+}
+.homenav{
+   margin: 20px 0px 0px 400px;
+}
+.headerList{
+    padding: 50px;
+    color: rgb(218, 108, 18);
+    font-size: 24px;
+    display: inline;
+}
+.mainsection{
+    text-align: center;
+    margin: 170px 190px 0px 200px;
+    font-size: xx-large;
+}
+.footerBox{
+    margin: 150px 0px 10px 1080px;
+}
+.footerheading{
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+.sectionLine{
+    color: rgba(255, 255, 255, 0.986);
+    font-style: italic;
+}
+/* PriceCSS */
+table, th, caption, thead, tbody, tr, td{
+border: 2px solid rgb(253, 155, 7);
+border-collapse:collapse;
+font-size: 0.9em;
+color: rgb(255, 255, 255);
+font-weight: bold;
+}
+table{
+    height: 120%;
+    width: 120%;
+    background-color: rgb(0, 0, 0);
+    font-size: large; 
+    color: rgb(165, 142, 42);
+
+ }
+ th{
+    font-weight: bolder;
+     color: rgb(0, 0, 0);
+     background-color: rgb(252, 252, 252);
+     height: 50px;
+     font-size:large;
+    
+ }
+ caption{
+    background-color: rgb(236, 183, 8);
+    color: white;
+    height: 30px;
+    font-size:large;
+    font-weight: bolder;
+ }
+ /* ContactCSS */
+.ContactHeading{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.Social-icon {     
+    height: 140px;     
+    width: 750px; 
+    margin:10px 0px 0px 330px ; 
+    font-size: 100px; 
+    text-align: left;
+    transform: scale(.75);
+}
+.Social-icon li{
+display: inline;
+}
+.menu{
+    transform-style: preserve-3d;
+}
+.menu-item{
+border: 2px solid white;
+margin: 4px;
+transform: translateZ(20);
+}
+.menu-item a{
+ padding:5px 10px;
+}
+.menu-item :hover {
+transform:translateZ(50px);
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(228, 217, 217);
+}
+/* ServicesCSS */
+.ServiceImage{
+    background-color: black;
+    height:250px;
+    width :200px;
+}
